@@ -36,7 +36,7 @@ public class User implements Serializable {
 		this.id = id;
 		this.name = name;
 		this.email = email;
-		this.phone = phone;
+		this.setPhone(phone);
 		this.password = password;
 	}
 
@@ -72,6 +72,14 @@ public class User implements Serializable {
 		this.password = password;
 	}
 	
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
 	public List<Order> getOrders() {
 		return orders;
 	}
