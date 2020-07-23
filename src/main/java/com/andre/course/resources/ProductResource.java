@@ -14,7 +14,7 @@ import com.andre.course.entities.Product;
 import com.andre.course.repositories.ProductRepository;
 
 @RestController
-@RequestMapping(value = "/products")
+@RequestMapping(value = "api/products")
 public class ProductResource {
 	
 	@Autowired

@@ -14,7 +14,7 @@ import com.andre.course.entities.Order;
 import com.andre.course.repositories.OrderRepository;
 
 @RestController
-@RequestMapping(value = "/orders")
+@RequestMapping(value = "api/orders")
 public class OrderResource {
 	
 	@Autowired

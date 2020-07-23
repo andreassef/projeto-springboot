@@ -14,7 +14,7 @@ import com.andre.course.entities.Category;
 import com.andre.course.repositories.CategoryRepository;
 
 @RestController
-@RequestMapping(value = "/categories")
+@RequestMapping(value = "api/categories")
 public class CategoryResource {
 	
 	@Autowired
